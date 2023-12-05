@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyDaiLy", "QuanLyDaiLy\QuanLyDaiLy.csproj", "{9BEEC80D-F18C-4C5F-A89C-6388E44ABD5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{A242B926-D819-4A9C-9337-CB9A53B67D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{DD1FD39E-2C9D-41BC-B139-BDA9BBBDD55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9BEEC80D-F18C-4C5F-A89C-6388E44ABD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BEEC80D-F18C-4C5F-A89C-6388E44ABD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BEEC80D-F18C-4C5F-A89C-6388E44ABD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A242B926-D819-4A9C-9337-CB9A53B67D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A242B926-D819-4A9C-9337-CB9A53B67D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A242B926-D819-4A9C-9337-CB9A53B67D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A242B926-D819-4A9C-9337-CB9A53B67D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1FD39E-2C9D-41BC-B139-BDA9BBBDD55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1FD39E-2C9D-41BC-B139-BDA9BBBDD55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1FD39E-2C9D-41BC-B139-BDA9BBBDD55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1FD39E-2C9D-41BC-B139-BDA9BBBDD55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
