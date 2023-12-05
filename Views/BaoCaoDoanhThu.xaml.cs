@@ -13,16 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace QuanLyDaiLy
+namespace QuanLyDaiLy.Views
 {
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
-	public partial class MainWindow : Window
-	{
-		public MainWindow()
-		{
-			InitializeComponent();
-		}
-	}
+    /// <summary>
+    /// Interaction logic for BaoCaoDoanhThu.xaml
+    /// </summary>
+    public partial class BaoCaoDoanhThu : UserControl
+    {
+        public BaoCaoDoanhThu()
+        {
+            InitializeComponent();
+        }
+    }
 }
