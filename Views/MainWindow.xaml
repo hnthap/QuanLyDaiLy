@@ -1,0 +1,44 @@
+﻿<Window x:Class="QuanLyDaiLy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyDaiLy"
+        mc:Ignorable="d"
+        Title="Quản lý đại lý"
+        Width="1280"
+        Height="720"
+        MinWidth="720"
+        MinHeight="680"
+        Margin="0"
+        Padding="0"
+        WindowStyle="ThreeDBorderWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!--Cột menu bên trái-->
+        <StackPanel Grid.Column="0" Background="LightGray">
+            <!--Nút Home-->
+            <Button Content="Home" HorizontalAlignment="Center" Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click"/>
+            <!--6 nút khác-->
+            <Button Content="Thông tin đại lý"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_1"/>
+            <Button Content="Tìm kiếm đại lý"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_2"/>
+            <Button Content="Phiếu xuất hàng"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_3"/>
+            <Button Content="Phiếu thu tiền"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_4"/>
+            <Button Content="Báo cáo công nợ"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_5"/>
+            <Button Content="Báo cáo doanh thu"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_6"/>
+            <Button Content="Thêm đại lý"  Margin="0,0,0,0" Width="100" FontWeight="Bold" Height="40" Click="Button_Click_7"/>
+        </StackPanel>
+
+        <!-- Cột nội dung bên phải -->
+        <Grid Grid.Column="1">
+            <!-- Grid để chứa nội dung của form -->
+            <Grid x:Name="ContentContainer" Margin="5">
+                <ContentControl Margin="5" Content="{Binding CurrentForm}" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
