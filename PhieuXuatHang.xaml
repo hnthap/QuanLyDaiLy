@@ -1,0 +1,44 @@
+﻿<Window x:Class="UserInterfaceDesign.PhieuXuatHang"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterfaceDesign"
+        mc:Ignorable="d"
+        Title="PhieuXuatHang" Height="775" Width="1200">
+    <Grid>
+        <Label x:Name="lblTieuDe"  Content="PHIẾU XUẤT HÀNG" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" Width="1200" Height="80" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Margin="0,0
+               ,0,0"/>
+        <DataGrid x:Name ="gridPhieuXuatHang" Margin="0,199,300,210" FontWeight="Bold" FontSize="24" Width="900" Height="350">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Width="75"/>
+                <DataGridTextColumn Header="Mặt hàng" Width="225"/>
+                <DataGridTextColumn Header="Đơn vị tính" Width="150"/>
+                <DataGridTextColumn Header="Số lượng" Width="150"/>
+                <DataGridTextColumn Header="Đơn giá" Width="150"/>
+                <DataGridTextColumn Header="Đơn giá" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle Margin="0,96,0,708" RenderTransformOrigin="0.511,0.059" Fill="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" Width="1200" Height="80"/>
+        <RichTextBox x:Name="txtMaDaiLy" Margin="105,83,845,626" Height="50" Width="250"/>
+        <RichTextBox x:Name ="txtTenDaiLy" Margin="105,140,300,569" Height="50" Background="{DynamicResource {x:Static SystemColors.AppWorkspaceBrushKey}}"/>
+        <Rectangle HorizontalAlignment="Center" Height="209" Margin="0,551,0,0" Stroke="Black" VerticalAlignment="Top" Width="1200" RenderTransformOrigin="-0.368,-0.048"/>
+
+        <Button x:Name="btnTimKiem" Height="65" Width="200" Content="Tìm kiếm phiếu xuất hàng" Margin="935,210,65,484"></Button>
+        <Button x:Name="btnThem" Height="65" Width="200" Content="Thêm phiếu xuất hàng" HorizontalAlignment="Left" Margin="935,299,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.03,0.167"/>
+        <Button x:Name="btnXoa" Height="65" Width="200" Content="Xóa phiếu xuất hàng" HorizontalAlignment="Left" Margin="935,394,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.596,-1.256"/>
+        <Button x:Name="btnIn" Height="65" Width="200" Content="In phiếu xuất hàng" Margin="935,480,65,210"></Button>
+        <RichTextBox x:Name="txtNgayLapPhieu" Height="50" Width="250" Margin="650,84,300,625"/>
+
+        <Label Content="Mã đại lí:" HorizontalAlignment="Left" Margin="9,94,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Tên đại lí:" HorizontalAlignment="Left" Margin="8,145,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Ngày lập phiếu:" HorizontalAlignment="Left" Margin="497,93,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+        <RichTextBox x:Name="txtTongTien" Width="250" Height="50" Margin="105,559,845,150" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}"></RichTextBox>
+        <RichTextBox x:Name="txtSoTienTra" Width="250" Height="50" Margin="105,655,845,54"></RichTextBox>
+        <RichTextBox x:Name="txtConLai" Width="250" Height="50" Margin="650,605,300,104"></RichTextBox>
+        <Label Content="Tổng tiền" HorizontalAlignment="Left" Margin="8,570,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Số tiền trả" HorizontalAlignment="Left" Margin="6,664,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Còn lại" HorizontalAlignment="Left" Margin="573,611,0,0" VerticalAlignment="Top" FontSize="18"/>
+    </Grid>
+</Window>

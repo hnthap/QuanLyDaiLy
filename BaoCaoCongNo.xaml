@@ -1,0 +1,33 @@
+﻿<Window x:Class="UserInterfaceDesign.BaoCaoCongNo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterfaceDesign"
+        mc:Ignorable="d"
+        Title="BaoCaoCongNo" Height="775" Width="1200">
+    <Grid>
+        <Label x:Name="lblTieuDe"  Content="BÁO CÁO CÔNG NỢ ĐẠI LÝ" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" Width="1200" Height="80" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Margin="0,0
+               ,0,0"/>
+        <DataGrid x:Name ="gridBangBaoCao" Margin="0,185,0,350" FontWeight="Bold" FontSize="24" Width="1200" Height="350">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Width="150"/>
+                <DataGridTextColumn Header="Mã đại lí" Width="150"/>
+                <DataGridTextColumn Header="Tên đại lí" Width="150"/>
+                <DataGridTextColumn Header="Số phiếu xuất" Width="250"/>
+                <DataGridTextColumn Header="Tổng trị giá" Width="250"/>
+                <DataGridTextColumn Header="Tỉ lệ" Width="250"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle Margin="0,96,0,708" RenderTransformOrigin="0.511,0.059" Fill="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" Width="1200" Height="80"/>
+        <RichTextBox x:Name="dateThang" Margin="74,99,986,590" Height="70" Width="140"/>
+        <RichTextBox x:Name ="dateNam" Margin="337,99,723,590" Width="140" Height="70"/>
+
+
+        <Button x:Name ="btnTimKiemDaiLy" Content="Button" HorizontalAlignment="Left" Margin="488,99,0,0" VerticalAlignment="Top" Height="70" Width="70"/>
+        <Rectangle HorizontalAlignment="Center" Height="209" Margin="0,551,0,0" Stroke="Black" VerticalAlignment="Top" Width="1200" RenderTransformOrigin="-0.368,-0.048"/>
+        <Label Content="Tháng" HorizontalAlignment="Left" Margin="17,121,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Năm" HorizontalAlignment="Left" Margin="259,119,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="btnInBaoCao" Content="in báo cáo" Width="200" Height="70" HorizontalAlignment="Left" Margin="899,98,0,0" VerticalAlignment="Top" FontSize="18"/>
+    </Grid>
+</Window>

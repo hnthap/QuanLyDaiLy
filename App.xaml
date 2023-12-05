@@ -1,7 +1,7 @@
-﻿<Application x:Class="QuanLyDaiLy.App"
+﻿<Application x:Class="UserInterfaceDesign.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:QuanLyDaiLy"
+             xmlns:local="clr-namespace:UserInterfaceDesign"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

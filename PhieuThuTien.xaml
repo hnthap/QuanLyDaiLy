@@ -1,0 +1,33 @@
+﻿<Window x:Class="UserInterfaceDesign.PhieuThuTien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterfaceDesign"
+        mc:Ignorable="d"
+        Title="PhieuThuTien" Height="775" Width="1200">
+    <Grid>
+        <Label x:Name="lblTieuDe"  Content="PHIẾU THU TIỀN" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" Width="1200" Height="80" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Margin="0,0
+   ,0,0"/>
+        <RichTextBox x:Name ="txtMaDaiLy" Margin="125,189,735,510" Width="340" Height="60"/>
+        <RichTextBox x:Name ="txtTienNo" Margin="785,189,75,510" Width="340" Height="60"/>
+        <RichTextBox x:Name ="txtSoTienThu" Margin="785,606,75,93" Width="340" Height="60"/>
+        <RichTextBox x:Name ="txtNgayThuTien" Margin="785,485,75,214" Width="340" Height="60"/>
+        <RichTextBox x:Name ="txtDienThoai" Margin="125,606,735,93" Width="340" Height="60"/>
+        <RichTextBox x:Name ="txtEmail" Margin="125,485,735,214" Width="340" Height="60"/>
+        <RichTextBox x:Name ="txtDiaChi" Margin="125,382,75,317" Width="1000"/>
+        <RichTextBox x:Name ="txtTenDaiLy" Margin="125,287,75,412" Width="1000"/>
+
+        <Button x:Name="btnInPhieu" Width="600" Height="100" Margin="0,80,600,580" FontSize="24" >In Phiếu</Button>
+        <Button x:Name="btnTaoPhieu" Width="600" Height="100" Margin="600,80,0,580" FontSize="24" >Tạo Phiếu</Button>
+
+        <Label Content="Mã đại lý:" HorizontalAlignment="Left" Margin="5,200,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Tiền nợ:" Margin="680,197,420,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Tên đại lý:" HorizontalAlignment="Left" Margin="5,299,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Địa chỉ:" HorizontalAlignment="Left" Margin="5,394,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Điện thoại:" HorizontalAlignment="Left" Margin="1,497,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="5,617,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Ngày thu tiền:" Margin="620,492,420,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Số tiền thu:" Margin="648,615,420,0" VerticalAlignment="Top" FontSize="24"/>
+    </Grid>
+</Window>
