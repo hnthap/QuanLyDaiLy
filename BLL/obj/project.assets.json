@@ -1,11 +1,55 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "DAL >= 1.0.0",
+      "DTO >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\C15TQK\\.nuget\\packages\\": {},
@@ -39,7 +83,14 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DAL\\DAL.csproj"
+            },
+            "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DTO\\DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
