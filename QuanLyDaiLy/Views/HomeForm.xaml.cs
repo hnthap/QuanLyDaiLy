@@ -24,5 +24,11 @@ namespace QuanLyDaiLy.Views
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Register register = new Register();
+            register.ShowDialog();
+        }
     }
 }
