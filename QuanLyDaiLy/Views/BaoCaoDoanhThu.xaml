@@ -34,14 +34,16 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0" Margin="10,10,10,10" >
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="40*" />
-                    <ColumnDefinition Width="20*" />
-                    <ColumnDefinition Width="40*" />
+                    <ColumnDefinition Width="70*" />
+                    <ColumnDefinition Width="30*" />
                 </Grid.ColumnDefinitions>
-                <Grid Grid.Column="1">
-                    <Button  Grid.Column="1" Content="Tháng" Name="btnMonth" Margin="5" FontSize="16" Padding="5" Width="Auto" Height="Auto"/>
+                
+                <Grid Grid.Column="0">
+                    <TextBox Grid.Column="0" x:Name="txtMonth" Margin="5" FontSize="16" Padding="5" Width="Auto" Height="Auto"/>
                 </Grid>
-
+                <Grid Grid.Column="1">
+                    <Button Grid.Column="1" x:Name="btnNhap" Content="Nhập" Margin="5" FontSize="18" Padding="5" Width="Auto" Height="Auto"/>
+                </Grid>
             </Grid>
         </Border>
 
