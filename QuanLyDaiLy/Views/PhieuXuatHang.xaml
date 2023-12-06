@@ -86,11 +86,11 @@
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
 
-                            <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
-                            <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding TenDaiLy}" Width="*" />
-                            <DataGridTextColumn Header="Loại" Binding="{Binding Loai}" Width="*" />
-                            <DataGridTextColumn Header="Quận" Binding="{Binding Quan}" Width="*" />
-                            <DataGridTextColumn Header="Tiền nợ" Binding="{Binding TienNo}" Width="*" />
+                            <DataGridTextColumn Header="Mặt hàng" Binding="{Binding MatHang}" Width="*" />
+                            <DataGridTextColumn Header="Đơn vị tính" Binding="{Binding DonViTinh}" Width="*" />
+                            <DataGridTextColumn Header="Số lượng" Binding="{Binding SoLuong}" Width="*" />
+                            <DataGridTextColumn Header="DonGia" Binding="{Binding DonGia}" Width="*" />
+                            <DataGridTextColumn Header="ThanhTien" Binding="{Binding ThanhTien}" Width="*" />
                         </DataGrid.Columns>
                     </DataGrid>
                 </Border>
@@ -133,9 +133,9 @@
                         <TextBlock Text="Tổng tiền" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="0"/>
                         <TextBlock Text="Số tiền trả" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="0"/>
                         <TextBlock Text="Còn lại" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="0"/>
-                        <Button x:Name="txtTongTien" Content="0" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
-                        <Button x:Name="txtSoTienTra" Content="0" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
-                        <Button x:Name="txtConLai" Content="0" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
+                        <TextBox x:Name="txtTongTien" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
+                        <TextBox x:Name="txtSoTienTra" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
+                        <TextBox x:Name="txtConLai" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
                     </Grid>
                 </Border>
             </Grid>

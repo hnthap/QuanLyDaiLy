@@ -69,7 +69,7 @@
                     <TextBox x:Name="txtMaDaiLy" Text="Nhập mã đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="1"/>
 
                     <TextBlock Text="Loại đại lý:" VerticalAlignment="Center" FontSize="14" Grid.Row="0" Grid.Column="2"/>
-                    <TextBox x:Name="txtLoaiDaiLy" Text="Nhập loại đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="3"/>
+                    <ComboBox x:Name="cbbLoaiDaiLy" Text="Nhập loại đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="3"/>
 
                     <TextBlock Text="Quận:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="1" Grid.Column="0"/>
                     <TextBox x:Name="txtQuan" Text="Nhập quận" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="1" Grid.Column="1"/>

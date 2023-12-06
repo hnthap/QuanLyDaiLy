@@ -113,11 +113,6 @@ namespace QuanLyDaiLy
             SwitchToForm6(); // Chuyển đổi sang Form2 khi người dùng nhấp vào nút Form6
         }
 
-        private void Button_Click_7(object sender, RoutedEventArgs e)
-        {
-            SwitchToThemDaiLyMoi();
-        }
-
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
             Button button = (Button)sender;
