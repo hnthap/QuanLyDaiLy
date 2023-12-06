@@ -111,7 +111,8 @@
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
 
-                        <DataGridTextColumn Header="Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                        <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding TenDaiLy}" Width="*" />
+                        <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
                         <DataGridTextColumn Header="Loại" Binding="{Binding Loai}" Width="*" />
                         <DataGridTextColumn Header="Quận" Binding="{Binding Quan}" Width="*" />
                         <DataGridTextColumn Header="Tiền nợ" Binding="{Binding TienNo}" Width="*" />
@@ -122,8 +123,8 @@
             <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1" Margin="5,5,0,10" Padding="5">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="75" />
-                        <RowDefinition Height="75" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
                     </Grid.RowDefinitions>
                     
                     <Button x:Name="btnInPhieu" Content="In phiếu thu tiền" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />

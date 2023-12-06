@@ -34,12 +34,15 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0" Margin="10,10,10,10" >
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="40*" />
-                    <ColumnDefinition Width="20*" />
-                    <ColumnDefinition Width="40*" />
+                    <ColumnDefinition Width="70*" />
+                    <ColumnDefinition Width="30*" />
                 </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <TextBox Grid.Column="0" x:Name="txtMonth" Margin="5" FontSize="16" Padding="5" Width="Auto" Height="Auto"/>
+                </Grid>
                 <Grid Grid.Column="1">
-                    <Button  Grid.Column="1" Content="Tháng" Name="btnMonth" Margin="5" FontSize="16" Padding="5" Width="Auto" Height="Auto"/>
+                    <Button Grid.Column="1" x:Name="btnNhap" Content="Nhập" Margin="5" FontSize="18" Padding="5" Width="Auto" Height="Auto"/>
                 </Grid>
 
             </Grid>
@@ -77,7 +80,8 @@
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
-                            <DataGridTextColumn Header="Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
                             <DataGridTextColumn Header="Nợ đầu" Binding="{Binding Loai}" Width="*" />
                             <DataGridTextColumn Header="Phát sinh" Binding="{Binding Quan}" Width="*" />
                             <DataGridTextColumn Header="Nợ cuối" Binding="{Binding TienNo}" Width="*" />
@@ -100,10 +104,9 @@
                             <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
-                        <Button Content="Cập nhật dữ liệu" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
-                        <Button Content="Hủy những thay đổi" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
-                        <Button Content="Tìm đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="2" />
-                        <Button Content="Xóa đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
+                        <Button x:Name="btnInBaoCao" Content="In báo cáo" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
+                        <Button x:Name="btnCapNhat" Content="Cập nhật dữ liệu" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
+
                     </Grid>
                 </Border>
 
@@ -123,9 +126,9 @@
                         <TextBlock Text="Tổng nợ đầu" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="0"/>
                         <TextBlock Text="Tổng phát sinh" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="0"/>
                         <TextBlock Text="Tổng nợ cuối" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="0"/>
-                        <Button Content="Tổng nợ đầu" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
-                        <Button Content="Tổng phát sinh" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
-                        <Button Content="Tổng nợ cuối" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
+                        <TextBox x:Name="txtTongNoDau" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
+                        <TextBox x:Name="txtTongPhatSinh" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
+                        <TextBox x:Name="txtTongNoCuoi" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
                     </Grid>
                 </Border>
             </Grid>

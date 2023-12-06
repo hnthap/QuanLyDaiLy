@@ -96,10 +96,8 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1" Margin="5,10,10,10" Padding="5">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="45" />
+                    <RowDefinition Height="45" />
                 </Grid.RowDefinitions>
                 <Button x:Name="btnTimKiem" Content="Tìm kiếm" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
                 <Button x:Name="btnCapNhat" Content="Cập nhật dữ liệu" Margin="5" FontSize="16" Padding="5" Grid.Row="0" />
@@ -130,7 +128,8 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
-                    <DataGridTextColumn Header="Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                    <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
+                    <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding TenDaiLy}" Width="*" />
                     <DataGridTextColumn Header="Loại" Binding="{Binding Loai}" Width="*" />
                     <DataGridTextColumn Header="Quận" Binding="{Binding Quan}" Width="*" />
                     <DataGridTextColumn Header="Tiền nợ" Binding="{Binding TienNo}" Width="*" />

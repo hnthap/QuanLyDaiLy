@@ -86,7 +86,8 @@
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
 
-                            <DataGridTextColumn Header="Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding TenDaiLy}" Width="*" />
                             <DataGridTextColumn Header="Loại" Binding="{Binding Loai}" Width="*" />
                             <DataGridTextColumn Header="Quận" Binding="{Binding Quan}" Width="*" />
                             <DataGridTextColumn Header="Tiền nợ" Binding="{Binding TienNo}" Width="*" />

@@ -80,7 +80,8 @@
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
 
-                            <DataGridTextColumn Header="Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding TenDaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
                             <DataGridTextColumn Header="Số phiếu xuất" Binding="{Binding Loai}" Width="*" />
                             <DataGridTextColumn Header="Tổng trị giá" Binding="{Binding Quan}" Width="*" />
                             <DataGridTextColumn Header="Tỷ lệ" Binding="{Binding TienNo}" Width="*" />
@@ -103,10 +104,9 @@
                             <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
-                        <Button Content="Cập nhật dữ liệu" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
-                        <Button Content="Hủy những thay đổi" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
-                        <Button Content="Tìm đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="2" />
-                        <Button Content="Xóa đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
+                        <Button x:Name="btnCapNhat" Content="Cập nhật dữ liệu" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
+                        <Button x:Name="btnInBaoCao" Content="In báo cáo" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
+
                     </Grid>
                 </Border>
 
@@ -126,9 +126,9 @@
                         <TextBlock Text="Tổng tiền" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="0"/>
                         <TextBlock Text="Số tiền trả" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="0"/>
                         <TextBlock Text="Còn lại" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="0"/>
-                        <Button Content="Tổng tiền" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
-                        <Button Content="Số tiền trả" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
-                        <Button Content="Còn lại" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
+                        <TextBox x:Name="txtTongTien" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
+                        <TextBox x:Name="txtSoTienTra" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
+                        <TextBox x:Name="txtConLai" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
                     </Grid>
                 </Border>
             </Grid>
