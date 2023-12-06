@@ -1,0 +1,16 @@
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\bin\Debug\net7.0-windows\DAL.deps.json
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\bin\Debug\net7.0-windows\DAL.dll
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\bin\Debug\net7.0-windows\DAL.pdb
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\bin\Debug\net7.0-windows\DTO.dll
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\bin\Debug\net7.0-windows\DTO.pdb
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.csproj.AssemblyReference.cache
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.AssemblyInfoInputs.cache
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.AssemblyInfo.cs
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.sourcelink.json
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.csproj.CopyComplete
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.dll
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\refint\DAL.dll
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\DAL.pdb
+C:\Users\nguye\Source\Repos\QuanLyDaiLy\DAL\obj\Debug\net7.0-windows\ref\DAL.dll

@@ -30,23 +30,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\C15TQK\\.nuget\\packages\\": {},
+    "C:\\Users\\nguye\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\C15TQK\\.nuget\\packages\\",
-      "outputPath": "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\C15TQK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -62,8 +62,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\vnu-uit\\sem05-cs511-c-sharp\\QuanLyDaiLy\\DTO\\DTO.csproj"
+            "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DTO\\DTO.csproj"
             }
           }
         }
@@ -88,6 +88,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -96,7 +110,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
