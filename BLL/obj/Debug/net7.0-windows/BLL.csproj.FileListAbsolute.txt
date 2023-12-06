@@ -1,0 +1,17 @@
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\BLL.deps.json
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\BLL.dll
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\BLL.pdb
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\DAL.dll
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\DTO.dll
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\DAL.pdb
+E:\C#\temp\QuanLyDaiLy\BLL\bin\Debug\net7.0-windows\DTO.pdb
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.csproj.AssemblyReference.cache
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.AssemblyInfoInputs.cache
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.AssemblyInfo.cs
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.csproj.CoreCompileInputs.cache
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.csproj.CopyComplete
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.dll
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\refint\BLL.dll
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\BLL.pdb
+E:\C#\temp\QuanLyDaiLy\BLL\obj\Debug\net7.0-windows\ref\BLL.dll

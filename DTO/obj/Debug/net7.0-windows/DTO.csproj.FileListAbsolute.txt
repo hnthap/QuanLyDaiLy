@@ -1,0 +1,11 @@
+E:\C#\temp\QuanLyDaiLy\DTO\bin\Debug\net7.0-windows\DTO.deps.json
+E:\C#\temp\QuanLyDaiLy\DTO\bin\Debug\net7.0-windows\DTO.dll
+E:\C#\temp\QuanLyDaiLy\DTO\bin\Debug\net7.0-windows\DTO.pdb
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\DTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\DTO.AssemblyInfoInputs.cache
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\DTO.AssemblyInfo.cs
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\DTO.csproj.CoreCompileInputs.cache
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\DTO.dll
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\refint\DTO.dll
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\DTO.pdb
+E:\C#\temp\QuanLyDaiLy\DTO\obj\Debug\net7.0-windows\ref\DTO.dll
