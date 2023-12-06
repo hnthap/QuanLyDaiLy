@@ -40,15 +40,15 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Text="Tên đại lý:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" />
-                    <TextBox Text="Nhập tên đại lý" Margin="-2,0,10,0" Grid.Column="1" FontSize="14" Height="25" />
+                    <TextBox x:Name="txtTenDaiLy" Text="Nhập tên đại lý" Margin="-2,0,10,0" Grid.Column="1" FontSize="14" Height="25" />
                 </Grid>
 
                 <UniformGrid Grid.Row="1" Rows="1" Columns="0" Margin="0,5,5,5">
                     <TextBlock Text="Mã đại lý:" VerticalAlignment="Center" FontSize="14" />
-                    <TextBox Text="Nhập mã đại lý" FontSize="14" Height="25" Margin="0,5,5,5" />
+                    <TextBox x:Name="txtMaDaiLy" Text="Nhập mã đại lý" FontSize="14" Height="25" Margin="0,5,5,5" />
 
                     <TextBlock Text="Ngày lập phiếu:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" />
-                    <TextBox Text="Nhập ngày lập phiếu" Margin="0,5,5,0" FontSize="14" Height="25" />
+                    <TextBox x:Name="txtNgayLapPhieu" Text="Nhập ngày lập phiếu" Margin="0,5,5,0" FontSize="14" Height="25" />
                 </UniformGrid>
             </StackPanel>
         </Border>
@@ -109,10 +109,10 @@
                             <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
-                        <Button Content="Cập nhật dữ liệu" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
-                        <Button Content="Hủy những thay đổi" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
-                        <Button Content="Tìm phiếu" Margin="5" FontSize="16" Padding="5" Grid.Row="2" />
-                        <Button Content="Xóa phiếu" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
+                        <Button x:Name="btnInPhieu" Content="In phiếu" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
+                        <Button x:Name="btnTaoPhieu" Content="Tạo phiếu mới" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
+                        <Button x:Name="btnTimKiem" Content="Tìm kiếm phiếu" Margin="5" FontSize="16" Padding="5" Grid.Row="2" />
+                        <Button x:Name="btnXoaPhieu" Content="Xóa phiếu" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
                     </Grid>
                 </Border>
 
@@ -132,9 +132,9 @@
                         <TextBlock Text="Tổng tiền" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="0"/>
                         <TextBlock Text="Số tiền trả" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="0"/>
                         <TextBlock Text="Còn lại" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="0"/>
-                        <Button Content="Tổng tiền" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
-                        <Button Content="Số tiền trả" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
-                        <Button Content="Còn lại" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
+                        <Button x:Name="txtTongTien" Content="0" Margin="5" FontSize="16" Padding="5" Grid.Row="0" Grid.Column="1"/>
+                        <Button x:Name="txtSoTienTra" Content="0" Margin="5" FontSize="16" Padding="5" Grid.Row="1" Grid.Column="1"/>
+                        <Button x:Name="txtConLai" Content="0" Margin="5" FontSize="16" Padding="5" Grid.Row="2" Grid.Column="1"/>
                     </Grid>
                 </Border>
             </Grid>
