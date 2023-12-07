@@ -83,7 +83,7 @@
                     <Button Content="Phiếu thu tiền" Click="Button_Click_4" />
                     <Button Content="Báo cáo công nợ" Click="Button_Click_5" />
                     <Button Content="Báo cáo doanh thu" Click="Button_Click_6" />
-                    <Button Content="Thêm đại lý" Click="Button_Click_7" />
+
                 </StackPanel>
 
                 <!-- Cột nội dung bên phải -->
