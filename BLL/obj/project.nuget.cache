@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wiMJC9zgOVYQjWfyXO3tRshK4854lx0bPceZQHAZeZ3DnZ8kD9rloo1aVY9KXs0K816xZP8nYLVRPIVWP7u7GQ==",
+  "dgSpecHash": "G7Kbfe+PCpV4chIsEB72QyS/jN51GlH4/+2xpS5qSJueNtNytj0h2APKAdDXMX4WnMRhWru8RMzrZPMKj+1nUg==",
   "success": true,
-  "projectFilePath": "E:\\C#\\QuanLyDaiLy\\BLL\\BLL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\BLL\\BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
