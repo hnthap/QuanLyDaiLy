@@ -100,7 +100,6 @@
                     <RowDefinition Height="45" />
                 </Grid.RowDefinitions>
                 <Button x:Name="btnTimKiem" Content="Tìm kiếm" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
-                <Button x:Name="btnCapNhat" Content="Cập nhật dữ liệu" Margin="5" FontSize="16" Padding="5" Grid.Row="0" />
             </Grid>
         </Border>
 

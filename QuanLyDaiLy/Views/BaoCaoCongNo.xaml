@@ -105,7 +105,6 @@
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
                         <Button x:Name="btnInBaoCao" Content="In báo cáo" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
-                        <Button x:Name="btnCapNhat" Content="Cập nhật dữ liệu" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
 
                     </Grid>
                 </Border>

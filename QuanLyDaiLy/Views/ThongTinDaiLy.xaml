@@ -101,7 +101,6 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <Button x:Name="btnThemDaiLy" Content="Thêm đại lý" Margin="5,5,5,0" FontSize="16" Padding="5" Grid.Row="0" />
-                <Button x:Name="btnCapNhat" Content="Cập nhật dữ liệu" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
                 <Button x:Name="btnTimKiem" Content="Tìm kiếm đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="2" />
                 <Button x:Name="btnXoaDaiLy" Content="Xóa đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
             </Grid>
