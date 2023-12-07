@@ -12,4 +12,11 @@
     <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+	  <Resource Include="Images\back_theme.jpeg" />
+	  <Resource Include="Images\key-icon.png" />
+	  <Resource Include="Images\logo.png" />
+	  <Resource Include="Images\user-icon.png" />
+  </ItemGroup>
+
 </Project>

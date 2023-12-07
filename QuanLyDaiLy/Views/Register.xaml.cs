@@ -16,13 +16,25 @@ using System.Windows.Shapes;
 namespace QuanLyDaiLy.Views
 {
     /// <summary>
-    /// Interaction logic for ThemDaiLy.xaml
+    /// Interaction logic for Register.xaml
     /// </summary>
-    public partial class ThemDaiLy : UserControl
+    public partial class Register : Window
     {
-        public ThemDaiLy()
+        public Register()
         {
             InitializeComponent();
+        }
+
+        private MainWindow mainWindow;
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
         }
     }
 }

@@ -48,7 +48,7 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Text="Tên đại lý:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" />
-                    <TextBox Text="Nhập tên đại lý" Margin="-2,0,10,0" Grid.Column="1" FontSize="14" Height="25" />
+                    <TextBox x:Name="txtTenDaiLy" Text="Nhập tên đại lý" Margin="-2,0,10,0" Grid.Column="1" FontSize="14" Height="25" />
                 </Grid>
 
                 <Grid Grid.Row="1" Margin="0,5,5,5">
@@ -66,28 +66,28 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Text="Mã đại lý:" VerticalAlignment="Center" FontSize="14" Grid.Row="0" Grid.Column="0"/>
-                    <TextBox Text="Nhập mã đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="1"/>
+                    <TextBox x:Name="txtMaDaiLy" Text="Nhập mã đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="1"/>
 
                     <TextBlock Text="Loại đại lý:" VerticalAlignment="Center" FontSize="14" Grid.Row="0" Grid.Column="2"/>
-                    <TextBox Text="Nhập loại đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="3"/>
+                    <ComboBox x:Name="cbbLoaiDaiLy" Text="Nhập loại đại lý" FontSize="14" Height="25" Margin="0,5,5,5" Grid.Row="0" Grid.Column="3"/>
 
                     <TextBlock Text="Quận:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="1" Grid.Column="0"/>
-                    <TextBox Text="Nhập quận" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="1" Grid.Column="1"/>
+                    <TextBox x:Name="txtQuan" Text="Nhập quận" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="1" Grid.Column="1"/>
 
                     <TextBlock Text="Ngày tiếp nhận:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="1" Grid.Column="2"/>
-                    <TextBox Text="Nhập ngày tiếp nhận" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="1" Grid.Column="3"/>
+                    <TextBox x:Name="txtNgayTiepQuan" Text="Nhập ngày tiếp nhận" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="1" Grid.Column="3"/>
 
                     <TextBlock Text="Địa chỉ:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="2" Grid.Column="0"/>
-                    <TextBox Text="Nhập địa chỉ" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="2" Grid.Column="1"/>
+                    <TextBox x:Name="txtDiaChi" Text="Nhập địa chỉ" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="2" Grid.Column="1"/>
 
                     <TextBlock Text="Email:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="2" Grid.Column="2"/>
-                    <TextBox Text="Nhập email" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="2" Grid.Column="3"/>
+                    <TextBox x:Name="txtEmail" Text="Nhập email" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="2" Grid.Column="3"/>
 
                     <TextBlock Text="Điện thoại:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="3" Grid.Column="0"/>
-                    <TextBox Text="Nhập điện thoại" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="3" Grid.Column="1"/>
+                    <TextBox x:Name="txtDienThoai" Text="Nhập điện thoại" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="3" Grid.Column="1"/>
 
                     <TextBlock Text="Tiền nợ:" VerticalAlignment="Center" Margin="0,5,5,0" FontSize="14" Grid.Row="3" Grid.Column="2"/>
-                    <TextBox Text="Nhập tiền nợ" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="3" Grid.Column="3"/>
+                    <TextBox x:Name="txtTienNo" Text="Nhập tiền nợ" Margin="0,5,5,0" FontSize="14" Height="25" Grid.Row="3" Grid.Column="3"/>
                 </Grid>
             </StackPanel>
         </Border>
@@ -96,15 +96,10 @@
         <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1" Margin="5,10,10,10" Padding="5">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="45" />
+                    <RowDefinition Height="45" />
                 </Grid.RowDefinitions>
-                <Button Content="Tìm kiếm" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
-                <Button Content="Cập nhật dữ liệu" Margin="5" FontSize="16" Padding="5" Grid.Row="0" />
-                <Button Content="Hủy những thay đổi" Margin="5" FontSize="16" Padding="5" Grid.Row="1" />
-                <Button Content="Xóa đại lý" Margin="5" FontSize="16" Padding="5" Grid.Row="2" />
+                <Button x:Name="btnTimKiem" Content="Tìm kiếm" Margin="5" FontSize="16" Padding="5" Grid.Row="3" />
             </Grid>
         </Border>
 
@@ -132,7 +127,8 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
-                    <DataGridTextColumn Header="Đại lý" Binding="{Binding DaiLy}" Width="*" />
+                    <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
+                    <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding TenDaiLy}" Width="*" />
                     <DataGridTextColumn Header="Loại" Binding="{Binding Loai}" Width="*" />
                     <DataGridTextColumn Header="Quận" Binding="{Binding Quan}" Width="*" />
                     <DataGridTextColumn Header="Tiền nợ" Binding="{Binding TienNo}" Width="*" />

@@ -1,5 +1,6 @@
 ﻿using QuanLyDaiLy.Views;
 using System;
+using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -74,11 +75,11 @@ namespace QuanLyDaiLy
             currentForm = new BaoCaoDoanhThu(); // Tạo một instance mới của BaoCaoDoanhThu
             ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
         }
-        private void SwitchToThemDaiLy()
+
+        private void SwitchToThemDaiLyMoi()
         {
-            ContentContainer.Children.Clear(); // Xóa form hiện tại
-            currentForm = new ThemDaiLy(); // Tạo một instance mới của ThemDaiLy
-            ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
+            ThemDaiLyMoi themDaiLyMoi = new ThemDaiLyMoi();
+            themDaiLyMoi.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -112,9 +113,58 @@ namespace QuanLyDaiLy
             SwitchToForm6(); // Chuyển đổi sang Form2 khi người dùng nhấp vào nút Form6
         }
 
-        private void Button_Click_7(object sender, RoutedEventArgs e)
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
-            SwitchToThemDaiLy();
+            Button button = (Button)sender;
+            button.Margin = new Thickness(0, 0, -10, 0); // Thay đổi giá trị Margin âm
+
+            button.Background = Brushes.LightBlue; // Đặt màu nền là lightblue
+            button.BorderBrush = Brushes.Black; // Đặt màu viền là đen
+            button.BorderThickness = new Thickness(1); // Đặt độ dày viền là 1 pixel
+
+            button.Foreground = Brushes.Black; // Đặt màu chữ là đen
+            button.FontSize = button.FontSize + 2; // Tăng kích thước lên 2
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Margin = new Thickness(0); // Khôi phục giá trị Margin ban đầu
+
+            button.Background = Brushes.Transparent; // Đặt màu nền là trong suốt
+            button.BorderBrush = Brushes.Transparent; // Đặt màu viền là trong suốt
+            button.BorderThickness = new Thickness(0); // Đặt độ dày viền là 0 pixel
+
+            button.Foreground = Brushes.White; // Đặt màu chữ là trắng
+            button.FontSize = button.FontSize - 2; // Giảm kích thước đi 2
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
+        }
+
+        private void btnMinimize_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void btnMaximize_Click(object sender, RoutedEventArgs e)
+        {
+            if (WindowState == WindowState.Maximized)
+            {
+                WindowState = WindowState.Normal;
+            }
+            else
+            {
+                WindowState = WindowState.Maximized;
+            }
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

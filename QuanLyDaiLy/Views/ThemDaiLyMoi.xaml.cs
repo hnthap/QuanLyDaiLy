@@ -12,16 +12,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace QuanLyDaiLy
+namespace QuanLyDaiLy.Views
 {
     /// <summary>
-    /// Interaction logic for ThemDaiLyWindow.xaml
+    /// Interaction logic for ThemDaiLyMoi.xaml
     /// </summary>
-    public partial class ThemDaiLyWindow : Window
+    public partial class ThemDaiLyMoi : Window
     {
-        public ThemDaiLyWindow()
+        public ThemDaiLyMoi()
         {
             InitializeComponent();
+        }
+
+
+        private void BacktoMainWindow()
+        {
+            this.Close();
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            BacktoMainWindow();
         }
     }
 }
