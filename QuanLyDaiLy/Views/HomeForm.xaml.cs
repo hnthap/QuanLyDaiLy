@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,25 @@ namespace QuanLyDaiLy.Views
         {
             Register register = new Register();
             register.ShowDialog();
+        }
+
+        // Envoke after clicking the Log In button
+		private void btnLogin_Click(object sender, RoutedEventArgs e)
+		{
+            string name = txtUser.Text;
+            string password = txtPass.Password;
+            if (UserAccountBLL.TryLogIn(name, password))
+            {
+                MessageBox.Show(@$"
+Đăng nhập thành công!!
+    Tên người dùng: {UserAccountBLL.CurrentAccount!.UserAccountName}
+    Mật khẩu: {UserAccountBLL.CurrentAccount!.UserAccountPassword}
+    Cấp: {UserAccountBLL.CurrentRole!.UserRoleName}");
+            }
+            else
+            {
+                MessageBox.Show("Nah");
+            }
         }
     }
 }
