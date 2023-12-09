@@ -8,19 +8,19 @@
         Title="Quản lý đại lý"
         Width="1280"
         Height="720"
-        MinWidth="720"
-        MinHeight="680" 
+        MinWidth="1280"
+        MinHeight="720" 
         Margin="0"
         Padding="0"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency ="True"
-        Background="Transparent"
+        Background="#fbfaf8"
         WindowStyle="None">
     <Border CornerRadius="12">
-        <Border.Background>
+        <!--<Border.Background>
             <ImageBrush ImageSource="\Images\back_theme.jpeg"
                         Stretch="UniformToFill"/>
-        </Border.Background>
+        </Border.Background>-->
 
         <Border CornerRadius="10"                    
             BorderThickness="2"
@@ -34,19 +34,20 @@
                 </LinearGradientBrush>
             </Border.BorderBrush>
 
-            <Border.Background>
+            <!--<Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                    <GradientStop Color="#060531" Offset="0"/>
-                    <GradientStop Color="#1B1448" Offset="1"/>
+                    <GradientStop Color="#ffff" Offset="0"/>
+                    <GradientStop Color="#f3faff" Offset="0.5"/>
+                    <GradientStop Color="#f3faff" Offset="1"/>
                 </LinearGradientBrush>
-            </Border.Background>
+            </Border.Background>-->
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="150" />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
@@ -55,42 +56,21 @@
                 </Grid>
 
                 <!--Cột menu bên trái-->
-                <StackPanel Grid.Column="0" Grid.Row="1" Margin="0,20,0,0">
-                    <StackPanel.Resources>
-                        <Style TargetType="Button">
-                            <Setter Property="HorizontalAlignment" Value="Center" />
-                            <Setter Property="Margin" Value="0" />
-                            <Setter Property="Width" Value="120" />
-                            <Setter Property="FontWeight" Value="Bold" />
-                            <Setter Property="Height" Value="50" />
-                            <Setter Property="Background" Value="Transparent" />
-                            <Setter Property="Foreground" Value="White" />
-                            <Setter Property="BorderThickness" Value="0" />
-                            <!-- Xóa hoặc đặt giá trị BorderThickness là 0 -->
-                            <Setter Property="BorderBrush" Value="Transparent" />
-                            <!-- Xóa hoặc đặt giá trị BorderBrush là Transparent -->
-                            <EventSetter Event="MouseEnter" Handler="Button_MouseEnter" />
-                            <EventSetter Event="MouseLeave" Handler="Button_MouseLeave" />
-                        </Style>
-                    </StackPanel.Resources>
-
-                    <!--Nút Home-->
-                    <Button Content="Home" Click="Button_Click" />
-
-                    <Button Content="Thông tin đại lý" Click="Button_Click_1" />
-                    <Button Content="Tìm kiếm đại lý" Click="Button_Click_2" />
-                    <Button Content="Phiếu xuất hàng" Click="Button_Click_3" />
-                    <Button Content="Phiếu thu tiền" Click="Button_Click_4" />
-                    <Button Content="Báo cáo công nợ" Click="Button_Click_5" />
-                    <Button Content="Báo cáo doanh thu" Click="Button_Click_6" />
-
-                </StackPanel>
-
+                <Grid Grid.Row="1" Grid.Column="0">
+                    <local:Menu ButtonClicked="Button_Click"
+                                Button1Clicked="Button1_Click"
+                                Button2Clicked="Button2_Click"
+                                Button3Clicked="Button3_Click"
+                                Button4Clicked="Button4_Click"
+                                Button5Clicked="Button5_Click"
+                                Button6Clicked="Button6_Click"/>
+                </Grid>
+                
                 <!-- Cột nội dung bên phải -->
                 <Grid Grid.Column="1" Grid.Row="1" Background="Transparent">
                     <!-- Grid để chứa nội dung của form -->
                     <Grid x:Name="ContentContainer" Margin="0">
-                        <ContentControl Margin="5" Content="{Binding CurrentForm}" />
+                        <ContentControl Margin="0,5,5,5" Content="{Binding CurrentForm}" />
                     </Grid>
                 </Grid>
             </Grid>

@@ -1,8 +1,19 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "x4M3U3BOjOg8jk8XB8tEdxuuAij3qxzrHqfq44AMVF1GQLyzuJzIp6SvVKWnME2nwB3btTCk9eQpVFJDzxme2Q==",
   "success": true,
   "projectFilePath": "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\DTO\\DTO.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "6SiMeHHbpHyTEXkAk/M41DIOmIxwk8zEo2YDbiX9CL1/vFNfGYb62ylIp+5RxhQMR2FmrFe8hcZleMQkQLWz3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DTO\\DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+>>>>>>> 2468b36710792bea18f3f2f7f618e7631e4f10f2
   "logs": []
 }

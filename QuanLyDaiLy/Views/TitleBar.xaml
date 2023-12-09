@@ -6,7 +6,13 @@
              xmlns:local="clr-namespace:QuanLyDaiLy.Views"
              mc:Ignorable="d" 
              d:DesignHeight="50" d:DesignWidth="800">
-    <Border CornerRadius="10" BorderThickness="2" Opacity="0.95">
+    <Border CornerRadius="10" BorderThickness="2" Opacity="0.95" Margin="-10,-10,-10,0">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="#060531" Offset="0"/>
+                <GradientStop Color="#1B1448" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
         <Border.BorderBrush>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#462AD8" Offset="0"/>
@@ -15,16 +21,16 @@
             </LinearGradientBrush>
         </Border.BorderBrush>
 
-        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,8,10,0">
             <Button x:Name="btnMinimize"                           
-    BorderThickness="0"
-    Content="-"
-    Foreground="White"
-    FontSize="16"
-    FontFamily="Montserrat"
-    Cursor="Hand"
-    Grid.Column="0"
-    Margin="2" Click="btnMinimize_Click" >
+                    BorderThickness="0"
+                    Content="-"
+                    Foreground="White"
+                    FontSize="16"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"
+                    Grid.Column="0"
+                    Margin="2" Click="btnMinimize_Click" >
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="#28AEED"/>
