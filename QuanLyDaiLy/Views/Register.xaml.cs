@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,10 +32,29 @@ namespace QuanLyDaiLy.Views
         {
             this.Close();
         }
+
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed)
                 DragMove();
         }
-    }
+
+		private void btnDangKy_Click(object sender, RoutedEventArgs e)
+		{
+            string name = txtUser.Text;
+            string email = txtEmail.Text;
+            string password = txtPass.Password;
+            string confirmedPassword = txtCPass.Password;
+
+            if (UserAccountBLL.TrySignUp(name, email, password, confirmedPassword))
+            {
+                MessageBox.Show("Successfully signed up. Please log in again.");
+            }
+            else
+            {
+                MessageBox.Show("You can't sign up.");
+            }
+            this.Close();
+		}
+	}
 }
