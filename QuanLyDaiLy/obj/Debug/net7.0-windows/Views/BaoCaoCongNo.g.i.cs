@@ -125,7 +125,7 @@ namespace QuanLyDaiLy.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/QuanLyDaiLy;V1.0.0.0;component/views/baocaocongno.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QuanLyDaiLy;component/views/baocaocongno.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\BaoCaoCongNo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

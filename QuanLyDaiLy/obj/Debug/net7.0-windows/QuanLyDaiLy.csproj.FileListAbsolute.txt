@@ -3,6 +3,12 @@ D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\QuanLyDaiLy.runtimeconfig.json
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\QuanLyDaiLy.dll
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\QuanLyDaiLy.pdb
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\BLL.dll
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\DAL.dll
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\DTO.dll
@@ -10,10 +16,12 @@ D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\DTO.pdb
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\DAL.pdb
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\QuanLyDaiLy.csproj.AssemblyReference.cache
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Styles\Border.baml
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\BaoCaoCongNo.g.cs
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\BaoCaoDoanhThu.g.cs
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\HomeForm.g.cs
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\MainWindow.g.cs
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\Menu.g.cs
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\PhieuThuTien.g.cs
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\PhieuXuatHang.g.cs
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\Register.g.cs
@@ -29,6 +37,7 @@ D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\BaoCaoDoanhThu.baml
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\HomeForm.baml
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\MainWindow.baml
+D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\Menu.baml
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\PhieuThuTien.baml
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\PhieuXuatHang.baml
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\Views\Register.baml
@@ -47,9 +56,3 @@ D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\QuanLyDaiLy.pdb
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\QuanLyDaiLy.genruntimeconfig.cache
 D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\obj\Debug\net7.0-windows\ref\QuanLyDaiLy.dll
-D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
-D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
-D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
-D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
-D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\vnu-uit\sem05-se104-intro-se\QuanLyDaiLy\QuanLyDaiLy\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

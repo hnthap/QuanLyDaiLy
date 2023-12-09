@@ -489,39 +489,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\C15TQK\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\nguye\\.nuget\\packages\\": {},
->>>>>>> 2468b36710792bea18f3f2f7f618e7631e4f10f2
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\DAL\\DAL.csproj",
       "projectName": "DAL",
       "projectPath": "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\C15TQK\\.nuget\\packages\\",
       "outputPath": "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\DAL\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DAL\\obj\\",
->>>>>>> 2468b36710792bea18f3f2f7f618e7631e4f10f2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\C15TQK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2468b36710792bea18f3f2f7f618e7631e4f10f2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -537,13 +521,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\DTO\\DTO.csproj": {
               "projectPath": "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\DTO\\DTO.csproj"
-=======
-            "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\DTO\\DTO.csproj"
->>>>>>> 2468b36710792bea18f3f2f7f618e7631e4f10f2
             }
           }
         }
@@ -574,20 +553,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -596,11 +561,7 @@
             "privateAssets": "none"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> 2468b36710792bea18f3f2f7f618e7631e4f10f2
       }
     }
   }

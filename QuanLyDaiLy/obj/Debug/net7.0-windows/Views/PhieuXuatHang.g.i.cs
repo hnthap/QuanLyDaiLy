@@ -165,7 +165,7 @@ namespace QuanLyDaiLy.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/QuanLyDaiLy;V1.0.0.0;component/views/phieuxuathang.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QuanLyDaiLy;component/views/phieuxuathang.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\PhieuXuatHang.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "G7Kbfe+PCpV4chIsEB72QyS/jN51GlH4/+2xpS5qSJueNtNytj0h2APKAdDXMX4WnMRhWru8RMzrZPMKj+1nUg==",
+  "dgSpecHash": "fR4aFJCl0sSdNcPh0rmf9Q3V2YJZ0tk9zjLxuxKQzwtbZHTyEPrdVLcn6DKiNbN5kZjL2SlgU2Ca++M38Dtm6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\QuanLyDaiLy\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\vnu-uit\\sem05-se104-intro-se\\QuanLyDaiLy\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+    "C:\\Users\\C15TQK\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\C15TQK\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
