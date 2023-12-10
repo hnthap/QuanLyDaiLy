@@ -1,4 +1,5 @@
 ﻿using BLL;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,15 +40,22 @@ namespace QuanLyDaiLy.Views
             string password = txtPass.Password;
             if (UserAccountBLL.TryLogIn(name, password))
             {
-                MessageBox.Show(@$"
-Đăng nhập thành công!!
-    Tên người dùng: {UserAccountBLL.CurrentAccount!.UserAccountName}
-    Mật khẩu: {UserAccountBLL.CurrentAccount!.UserAccountPassword}
-    Cấp: {UserAccountBLL.CurrentRole!.UserRoleName}");
+                StringBuilder builder = new StringBuilder();
+                builder.AppendLine("Đăng nhập thành công!!");
+                builder.AppendLine($"Tên người dùng: {UserAccountBLL.CurrentAccount!.UserAccountName}");
+                builder.AppendLine($"Email: {UserAccountBLL.CurrentAccount!.UserAccountEmail}");
+                builder.AppendLine($"Mật khẩu: {UserAccountBLL.CurrentAccount!.UserAccountPassword}");
+                builder.AppendLine($"Cấp: {UserAccountBLL.CurrentRole!.UserRoleName}");
+                builder.AppendLine("Quyền:");
+                foreach (UserRight right in UserAccountBLL.CurrentRights)
+                {
+                    builder.AppendLine($" + {right.UserRightName}");
+                }
+                MessageBox.Show(builder.ToString());
             }
             else
             {
-                MessageBox.Show("Nah");
+                MessageBox.Show("Sai mật khẩu hay tên tài khoản rồi bạn ơi.");
             }
         }
     }

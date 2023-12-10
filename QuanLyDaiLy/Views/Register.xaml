@@ -99,7 +99,7 @@
                              FontSize="13"
                              FontWeight="Medium"
                              FontFamily="Montserrat"                            
-                             Foreground="White"
+                             Foreground="Black"
                              CaretBrush="LightGray"
                              BorderBrush="DarkGray"
                              BorderThickness="0,0,0,2"
@@ -126,7 +126,7 @@
                              FontSize="13"
                              FontWeight="Medium"
                              FontFamily="Montserrat"                            
-                             Foreground="White"
+                             Foreground="Black"
                              CaretBrush="LightGray"
                              BorderBrush="DarkGray"
                              BorderThickness="0,0,0,2"
@@ -152,7 +152,7 @@
                              FontSize="13"
                              FontWeight="Medium"
                              FontFamily="Montserrat"                            
-                             Foreground="White"
+                             Foreground="Black"
                              CaretBrush="LightGray"
                              BorderBrush="DarkGray"
                              BorderThickness="0,0,0,2"
@@ -178,7 +178,7 @@
                              FontSize="13"
                              FontWeight="Medium"
                              FontFamily="Montserrat"                            
-                             Foreground="White"
+                             Foreground="Black"
                              CaretBrush="LightGray"
                              BorderBrush="DarkGray"
                              BorderThickness="0,0,0,2"
@@ -201,7 +201,7 @@
                             FontSize="12"
                             FontFamily="Montserrat"
                             Cursor="Hand"                           
-                            Margin="0,50,0,0">
+                            Margin="0,50,0,0" Click="btnDangKy_Click">
 
                         <Button.Style>
                             <Style TargetType="Button">
@@ -236,7 +236,7 @@
                                FontWeight="Medium"
                                FontFamily="Montserrat"/>
 
-                        <Button Content="Đăng nhập"
+                        <Button x:Name="btnLogIn" Content="Đăng nhập"
                                Foreground="Black"
                                 Background="Transparent"
                                 BorderThickness="0"
