@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\debt_report.png" />
+    <None Remove="Views\delivery_note.png" />
+    <None Remove="Views\finance_note.png" />
+    <None Remove="Views\home.png" />
+    <None Remove="Views\market.png" />
+    <None Remove="Views\revenue_report.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj" />
     <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
@@ -17,6 +26,16 @@
 	  <Resource Include="Images\key-icon.png" />
 	  <Resource Include="Images\logo.png" />
 	  <Resource Include="Images\user-icon.png" />
+	  <Resource Include="Views\debt_report.png" />
+	  <Resource Include="Views\delivery_note.png" />
+	  <Resource Include="Views\finance_note.png" />
+	  <Resource Include="Views\home.png" />
+	  <Resource Include="Views\market.png" />
+	  <Resource Include="Views\revenue_report.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\Menu\" />
   </ItemGroup>
 
 </Project>

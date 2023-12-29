@@ -40,8 +40,13 @@
             </StackPanel.Resources>
 
             <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20*" />
+                    <ColumnDefinition Width="80*" />
+                </Grid.ColumnDefinitions>
+
+
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
@@ -51,14 +56,19 @@
                 </Grid.RowDefinitions>
 
                 <!--Nút Home-->
-                <Button Content="Home" Click="Button_Click" Grid.Row="0" />
-
-                <Button Content="Thông tin đại lý" Click="Button1_Click" Grid.Row="1" />
-                <Button Content="Tìm kiếm đại lý" Click="Button2_Click" Grid.Row="2" />
-                <Button Content="Phiếu xuất hàng" Click="Button3_Click" Grid.Row="3" />
-                <Button Content="Phiếu thu tiền" Click="Button4_Click" Grid.Row="4" />
-                <Button Content="Báo cáo công nợ" Click="Button5_Click" Grid.Row="5" />
-                <Button Content="Báo cáo doanh thu" Click="Button6_Click" Grid.Row="6" />
+                <Image Grid.Row="0" Grid.Column="0" Source="/Views/home.png"/>
+                <Image Grid.Row="1" Grid.Column="0" Source="/Views/market.png" />
+                <Image Grid.Row="2" Grid.Column="0" Source="/Views/delivery_note.png" />
+                <Image Grid.Row="3" Grid.Column="0" Source="/Views/finance_note.png" />
+                <Image Grid.Row="4" Grid.Column="0" Source="/Views/debt_report.png" />
+                <Image Grid.Row="5" Grid.Column="0" Source="/Views/revenue_report.png" />
+                
+                <Button Content="Home" Click="Button_Click" Grid.Row="0" Grid.Column="1"/>
+                <Button Content="Thông tin đại lý" Click="Button1_Click" Grid.Row="1" Grid.Column="1"/>
+                <Button Content="Phiếu xuất hàng" Click="Button3_Click" Grid.Row="2" Grid.Column="1"/>
+                <Button Content="Phiếu thu tiền" Click="Button4_Click" Grid.Row="3" Grid.Column="1"/>
+                <Button Content="Báo cáo công nợ" Click="Button5_Click" Grid.Row="4" Grid.Column="1"/>
+                <Button Content="Báo cáo doanh thu" Click="Button6_Click" Grid.Row="5" Grid.Column="1"/>
             </Grid>
         </StackPanel>
 

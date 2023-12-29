@@ -81,7 +81,7 @@
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
                             <DataGridTextColumn Header="Tên Đại lý" Binding="{Binding DaiLy}" Width="*" />
-                            <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaDaiLy}" Width="*" />
+                            <DataGridTextColumn Header="Mã Đại lý" Binding="{Binding MaLoaiDaiLy}" Width="*" />
                             <DataGridTextColumn Header="Nợ đầu" Binding="{Binding Loai}" Width="*" />
                             <DataGridTextColumn Header="Phát sinh" Binding="{Binding Quan}" Width="*" />
                             <DataGridTextColumn Header="Nợ cuối" Binding="{Binding TienNo}" Width="*" />
