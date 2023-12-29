@@ -26,16 +26,12 @@
 	  <Resource Include="Images\key-icon.png" />
 	  <Resource Include="Images\logo.png" />
 	  <Resource Include="Images\user-icon.png" />
-	  <Resource Include="Views\debt_report.png" />
-	  <Resource Include="Views\delivery_note.png" />
-	  <Resource Include="Views\finance_note.png" />
-	  <Resource Include="Views\home.png" />
-	  <Resource Include="Views\market.png" />
-	  <Resource Include="Views\revenue_report.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Images\Menu\" />
+	  <Resource Include="Images\Menu\debt_report.png" />
+	  <Resource Include="Images\Menu\delivery_note.png" />
+	  <Resource Include="Images\Menu\finance_note.png" />
+	  <Resource Include="Images\Menu\home.png" />
+	  <Resource Include="Images\Menu\market.png" />
+	  <Resource Include="Images\Menu\revenue_report.png" />
   </ItemGroup>
 
 </Project>

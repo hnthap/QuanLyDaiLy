@@ -25,10 +25,10 @@ namespace QuanLyDaiLy
         public MainWindow()
         {
             InitializeComponent();
-            SwitchToHomForm();
+            SwitchToHomeForm();
         }
 
-        private void SwitchToHomForm()
+        private void SwitchToHomeForm()
         {
             ContentContainer.Children.Clear(); // Xóa form hiện tại
             currentForm = new HomeForm(); // Tạo một instance mới của HomeForm
@@ -36,7 +36,7 @@ namespace QuanLyDaiLy
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            SwitchToHomForm();
+            SwitchToHomeForm();
         }
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
@@ -44,31 +44,26 @@ namespace QuanLyDaiLy
             currentForm = new ThongTinDaiLy(); // Tạo một instance mới của ThongTinDaiLy
             ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
         }
+
         private void Button2_Click(object sender, RoutedEventArgs e)
-        {
-            ContentContainer.Children.Clear(); // Xóa form hiện tại
-            currentForm = new TimKiemDaiLy(); // Tạo một instance mới của TimKiemDaiLy
-            ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
-        }
-        private void Button3_Click(object sender, RoutedEventArgs e)
         {
             ContentContainer.Children.Clear(); // Xóa form hiện tại
             currentForm = new PhieuXuatHang(); // Tạo một instance mới của PhieuXuatHang
             ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
         }
-        private void Button4_Click(object sender, RoutedEventArgs e)
+        private void Button3_Click(object sender, RoutedEventArgs e)
         {
             ContentContainer.Children.Clear(); // Xóa form hiện tại
             currentForm = new PhieuThuTien(); // Tạo một instance mới của PhieuThuTien
             ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
         }
-        private void Button5_Click(object sender, RoutedEventArgs e)
+        private void Button4_Click(object sender, RoutedEventArgs e)
         {
             ContentContainer.Children.Clear(); // Xóa form hiện tại
             currentForm = new BaoCaoCongNo(); // Tạo một instance mới của BaoCaoCongNo
             ContentContainer.Children.Add(currentForm); // Thêm form vào ContentContainer
         }
-        private void Button6_Click(object sender, RoutedEventArgs e)
+        private void Button5_Click(object sender, RoutedEventArgs e)
         {
             ContentContainer.Children.Clear(); // Xóa form hiện tại
             currentForm = new BaoCaoDoanhThu(); // Tạo một instance mới của BaoCaoDoanhThu

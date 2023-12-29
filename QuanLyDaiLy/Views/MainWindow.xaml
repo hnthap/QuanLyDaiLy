@@ -57,15 +57,15 @@
 
                 <!--Cột menu bên trái-->
                 <Grid Grid.Row="1" Grid.Column="0">
-                    <local:Menu ButtonClicked="Button_Click"
+                    <local:Menu ButtonClicked="Button_Click" 
                                 Button1Clicked="Button1_Click"
                                 Button2Clicked="Button2_Click"
                                 Button3Clicked="Button3_Click"
                                 Button4Clicked="Button4_Click"
                                 Button5Clicked="Button5_Click"
-                                Button6Clicked="Button6_Click"/>
+                        />
                 </Grid>
-                
+
                 <!-- Cột nội dung bên phải -->
                 <Grid Grid.Column="1" Grid.Row="1" Background="Transparent">
                     <!-- Grid để chứa nội dung của form -->
